@@ -581,9 +581,29 @@ header .search-bar-container label:hover {
   text-align: center;
 }
 
+/* .footer {
+  background: red;
+} */
+
 .footer {
-  background: #2f3542;
+  background-image: url(images/wave-haikei.svg);
+  background-size: 50rem;
+
 }
+
+@media (max-width:1355px) {
+  .div {
+    background-size: contain;
+  }
+}
+
+
+@media (max-width:1355px) {
+  .div {
+    background-size: contain;
+  }
+}
+
 
 .footer .box-container {
   display: flex;
@@ -599,24 +619,24 @@ header .search-bar-container label:hover {
 .footer .box-container .box h3 {
   font-size: 2.5rem;
   padding: .7rem 0;
-  color: #fff;
+  color: black;
 }
 
 .footer .box-container .box p {
   font-size: 1.5rem;
   padding: .7rem 0;
-  color: #eee;
+  color: black;
 }
 
 .footer .box-container .box a {
   display: block;
   font-size: 1.5rem;
   padding: .7rem 0;
-  color: #eee;
+  color: black;
 }
 
 .footer .box-container .box a:hover {
-  color: var(--red);
+  color: gold;
   text-decoration: underline;
 }
 
@@ -626,12 +646,13 @@ header .search-bar-container label:hover {
   margin-top: 1rem;
   font-size: 2rem;
   font-weight: normal;
-  color: #fff;
+  color: black;
   border-top: .1rem solid rgba(255, 255, 255, .2);
 }
 
 .footer .credit span a {
-  color: var(--red);
+  color: red;
+  font-weight: 600;
 }
 
 
