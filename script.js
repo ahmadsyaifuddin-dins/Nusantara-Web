@@ -92,3 +92,20 @@ window.onbeforeunload = () => {
   }
 
 };
+
+// Membuat variabel untuk audio element
+var myAudio = document.getElementById('myAudio');
+
+// Memastikan browser mendukung autoplay
+document.addEventListener('DOMContentLoaded', function () {
+  if (myAudio.paused) {
+    myAudio.play();
+  }
+});
+
+// Mengatasi browser yang memerlukan interaksi pengguna
+document.addEventListener('click', function () {
+  if (myAudio.paused) {
+    myAudio.play();
+  }
+});
