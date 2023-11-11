@@ -587,7 +587,7 @@ header .search-bar-container label:hover {
 
 .footer {
   background-image: url(images/wave-haikei.svg);
-  background-size: 51rem;
+  background-size: 50rem;
 
 }
 
@@ -728,6 +728,11 @@ header .search-bar-container label:hover {
 
   .home .video-container video {
     object-fit: fill;
+  }
+
+  .footer {
+    background-size: 51rem;
+
   }
 
 }
