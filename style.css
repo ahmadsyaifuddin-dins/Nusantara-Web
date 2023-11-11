@@ -269,17 +269,21 @@ header .search-bar-container label:hover {
 
 .home .content h3 {
   font-size: 4.5rem;
-  color: red;
+  color: rgba(255, 0, 0, 0.37);
   text-transform: uppercase;
   text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .1);
 }
 
 .home .content p {
   font-size: 3.5rem;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.329);
+  color: #ffffff4b;
+  /* background-color: rgba(0, 0, 0, 0.329); */
   font-weight: 500;
   padding: .5rem 0;
+}
+
+.home .btn {
+  margin-top: 18rem;
 }
 
 .home .video-container video {
