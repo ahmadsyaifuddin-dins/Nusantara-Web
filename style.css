@@ -119,7 +119,7 @@ header .search-bar-container {
   left: 0;
   right: 0;
   padding: 1.5rem 2rem;
-  background: #747d8c;
+  background: rgba(255, 0, 0, 0.705);
   border-top: .1rem solid rgba(255, 255, 255, .2);
   display: flex;
   align-items: center;
@@ -135,7 +135,7 @@ header .search-bar-container #search-bar {
   width: 100%;
   padding: 1rem;
   text-transform: none;
-  color: #747d8c;
+  color: red;
   font-size: 1.7rem;
   border-radius: .5rem;
 }
