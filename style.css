@@ -581,29 +581,9 @@ header .search-bar-container label:hover {
   text-align: center;
 }
 
-/* .footer {
-  background: red;
-} */
-
 .footer {
-  background-image: url(images/wave-haikei.svg);
-  background-size: 50rem;
-
+  background: wheat;
 }
-
-@media (max-width:1355px) {
-  .div {
-    background-size: contain;
-  }
-}
-
-
-@media (max-width:1355px) {
-  .div {
-    background-size: contain;
-  }
-}
-
 
 .footer .box-container {
   display: flex;
@@ -636,7 +616,7 @@ header .search-bar-container label:hover {
 }
 
 .footer .box-container .box a:hover {
-  color: gold;
+  color: var(--red);
   text-decoration: underline;
 }
 
@@ -651,8 +631,7 @@ header .search-bar-container label:hover {
 }
 
 .footer .credit span a {
-  color: red;
-  font-weight: 600;
+  color: var(--red);
 }
 
 
@@ -728,11 +707,6 @@ header .search-bar-container label:hover {
 
   .home .video-container video {
     object-fit: fill;
-  }
-
-  .footer {
-    background-size: 51rem;
-
   }
 
 }
