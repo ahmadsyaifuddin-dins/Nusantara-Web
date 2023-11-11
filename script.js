@@ -103,9 +103,20 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 
+// Unmute audio setelah event canplay
+myAudio.addEventListener('canplay', function () {
+  myAudio.muted = false;
+  myAudio.play();
+});
+
 // Mengatasi browser yang memerlukan interaksi pengguna
 document.addEventListener('click', function () {
   if (myAudio.paused) {
     myAudio.play();
   }
+});
+
+// Unmute audio setelah event loadedmetadata
+myAudio.addEventListener('loadedmetadata', function () {
+  myAudio.muted = false;
 });
