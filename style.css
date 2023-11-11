@@ -705,4 +705,8 @@ header .search-bar-container label:hover {
     width: 100%;
   }
 
+  .home .video-container video {
+    object-fit: fill;
+  }
+
 }
