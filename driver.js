@@ -1,40 +1,11 @@
-import {
-    driver
-} from "driver.js";
-import "driver.js/dist/driver.css";
+const driver = window.driver.js.driver;
 
+const driverObj = driver();
 
-const driverObj = driver({
-    showProgress: true,
-    steps: [{
-            element: '.home',
-            popover: {
-                title: 'Title',
-                description: 'Description'
-            }
-        },
-        {
-            element: '.book',
-            popover: {
-                title: 'Title',
-                description: 'Description'
-            }
-        },
-        {
-            element: '.sidebar',
-            popover: {
-                title: 'Title',
-                description: 'Description'
-            }
-        },
-        {
-            element: '.footer',
-            popover: {
-                title: 'Title',
-                description: 'Description'
-            }
-        },
-    ]
+driverObj.highlight({
+    element: "#form",
+    popover: {
+        title: "Form Identitas",
+        description: "Silahkan anda isi data di Form Identitas, Form ini sudah terintegrasi dengan API Formspree"
+    }
 });
-
-driverObj.drive();
