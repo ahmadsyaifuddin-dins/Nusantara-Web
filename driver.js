@@ -31,7 +31,7 @@ const driverObj = driver({
             }
         },
         {
-            element: '.home',
+            element: '.logo',
             popover: {
                 title: 'Selamat Berlihat-lihat',
                 description: 'Teruslah Hebat !',
