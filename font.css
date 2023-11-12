@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Nusa;
+    src: url(fonts/ketoprak-font/Ketoprak-0W6wo.ttf);
+}
+
+* {
+    font-family: 'Nusa', sans-serif;
+}
