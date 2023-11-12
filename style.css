@@ -563,6 +563,12 @@ header .search-bar-container label:hover {
   justify-content: space-between;
 }
 
+.contact .row form .inputBox2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .contact .row form .inputBox input,
 .contact .row form textarea {
   width: 49%;
@@ -612,7 +618,7 @@ header .search-bar-container label:hover {
 .rate-area>input:checked~label {
   color: gold;
   text-shadow: 1px 1px #c60;
-  font-size: 450% !important;
+  /* font-size: 450% !important; */
 }
 
 .rate-area:not(:checked)>label:hover,
@@ -631,11 +637,11 @@ header .search-bar-container label:hover {
 
 }
 
-.rate-area>label:active {
+/* .rate-area>label:active {
   position: relative;
   top: 2px;
   left: 2px;
-}
+} */
 
 /* End Rating Stars */
 
@@ -765,6 +771,10 @@ header .search-bar-container label:hover {
 
   .contact .row form .inputBox input {
     width: 100%;
+  }
+
+  .contact .row form .inputBox2 input {
+    width: 50%;
   }
 
   .home .video-container video {
