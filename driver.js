@@ -34,7 +34,7 @@ const driverObj = driver({
             element: '.content',
             popover: {
                 title: 'Selamat Berlihat-lihat',
-                description: 'Indonesia Is Wonderland!',
+                description: 'Indonesia is Wonderland!',
                 side: "left",
                 align: 'start'
             }
