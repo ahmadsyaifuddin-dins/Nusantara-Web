@@ -31,6 +31,16 @@ const driverObj = driver({
             }
         },
         {
+            element: '.stars-rating',
+            popover: {
+                title: 'Rating Stars 😉',
+                description: 'Jangan Lupa untuk kasih Rate Stars !',
+                side: "bottom",
+                align: 'start'
+            }
+        },
+
+        {
             element: '.content',
             popover: {
                 title: 'Selamat Menjelajahi ✨',
