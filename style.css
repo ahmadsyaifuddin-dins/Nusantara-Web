@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+@font-face {
+  font-family: Nusa;
+  src: url(fonts/ketoprak-font/Ketoprak-0W6wo.ttf);
+}
+
 :root {
   --red: red;
 }
 
 * {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nusa', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -82,6 +87,7 @@ header {
 }
 
 header .logo {
+  font-family: Nusa;
   font-size: 2.5rem;
   font-weight: bolder;
   color: #fff;
@@ -90,6 +96,7 @@ header .logo {
 }
 
 header .logo span {
+  font-family: Nusa;
   color: var(--red);
 }
 
