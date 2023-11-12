@@ -583,13 +583,12 @@ header .search-bar-container label:hover {
 /* Rating Stars */
 
 .rate-area {
-  float: left;
+  /* float: left; */
   border-style: none;
 }
 
 .rate-area:not(:checked)>input {
   position: absolute;
-  /* top: -9999px; */
   clip: rect(0, 0, 0, 0);
 }
 
