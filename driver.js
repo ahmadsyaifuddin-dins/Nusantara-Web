@@ -25,7 +25,7 @@ const driverObj = driver({
             element: '.form2',
             popover: {
                 title: 'Form Pesan',
-                description: 'Silahkan anda berikan pesan kepada saya di Form kontak ini, Form ini juga sudah terintegrasi dengan API Formspree',
+                description: 'Silahkan anda berikan pesan kepada saya setelah anda meninjau dan mereview dari web ini di Form kontak ini, Form ini juga sudah terintegrasi dengan API Formspree',
                 side: "left",
                 align: 'start'
             }
