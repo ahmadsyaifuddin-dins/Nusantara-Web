@@ -367,6 +367,9 @@ header .search-bar-container label:hover {
 
 /* End Section Book */
 
+
+
+/* Section Packages/Kepulauan */
 .packages .box-container {
   display: flex;
   flex-wrap: wrap;
@@ -421,6 +424,9 @@ header .search-bar-container label:hover {
   font-size: 1.5rem;
   text-decoration: line-through;
 }
+
+/* End Section Packages/Kepulauan */
+
 
 .services .box-container {
   display: flex;
