@@ -552,6 +552,8 @@ header .search-bar-container label:hover {
   font-size: 1.7rem;
 }
 
+/* Section Contact Form */
+
 .contact .row {
   display: flex;
   flex-wrap: wrap;
@@ -663,7 +665,8 @@ header .search-bar-container label:hover {
   left: 2px;
 }
 
-/* End Rating Stars */
+/* End Rating Stars + End Also Contact Form*/
+
 
 .brand-container {
   text-align: center;
