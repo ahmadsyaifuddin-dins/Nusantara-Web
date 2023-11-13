@@ -354,7 +354,7 @@ header .search-bar-container label:hover {
   padding: 1rem;
   border: .1rem solid rgba(0, 0, 0, .1);
   font-size: 1.7rem;
-  color: #747d8c;
+  color: black;
   text-transform: none;
 }
 
