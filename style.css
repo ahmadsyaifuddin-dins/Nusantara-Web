@@ -625,7 +625,7 @@ header .search-bar-container label:hover {
 .rate-area>input:checked~label {
   color: gold;
   text-shadow: 1px 1px #c60;
-  font-size: 450% !important;
+  font-size: 500% !important;
   transform: rotate(360deg);
 }
 
