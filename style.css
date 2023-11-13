@@ -626,6 +626,7 @@ header .search-bar-container label:hover {
   color: gold;
   text-shadow: 1px 1px #c60;
   font-size: 450% !important;
+  transform: rotate(360deg);
 }
 
 .rate-area:not(:checked)>label:hover,
