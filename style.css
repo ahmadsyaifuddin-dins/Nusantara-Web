@@ -321,6 +321,8 @@ header .search-bar-container label:hover {
   background: var(--red);
 }
 
+/* Section Book */
+
 .book .row {
   display: flex;
   flex-wrap: wrap;
@@ -361,6 +363,15 @@ header .search-bar-container label:hover {
   padding: 1rem 0;
   color: red;
 }
+
+
+option {
+  background-color: white;
+  color: red;
+}
+
+
+/* End Section Book */
 
 .packages .box-container {
   display: flex;
