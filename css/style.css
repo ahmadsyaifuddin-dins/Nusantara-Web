@@ -485,10 +485,16 @@ header .search-bar-container label:hover {
   height: 100%;
   width: 100%;
   text-align: center;
-  background: rgba(0, 0, 0, .7);
+  background: rgba(0, 0, 0, 0.527);
   padding: 2rem;
-  padding-top: 5rem;
+  padding-top: .5rem;
 }
+
+.gallery .box-container .box a {
+  visibility: collapse;
+}
+
+
 
 .gallery .box-container .box:hover .content {
   top: 0;
