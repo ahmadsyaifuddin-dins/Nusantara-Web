@@ -16,6 +16,7 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/slider.css">
     <!-- soundtrack -->
     <audio id="myAudio" autoplay>
         <source src="audio/Fix Nusantara audio.mp3" type="audio/mp3">
@@ -821,10 +822,41 @@
 
     <!-- contact section ends -->
 
-    <!-- brand section  -->
-    <section class="brand-container">
+    <!-- brand section & Slideshow container -->
+    <section class="row" id="galeri">
 
-        <div class="swiper-container slick-slider">
+        <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="images/1620px-Seni_Tari_Piring.jpg" style="width: 100%;">
+                <div class="text">Caption Text</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="images/100-upacara-ngaben-dalam-agama-hindu.jpg" style="width:100%">
+                <div class="text">Caption Two</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="images/1531px-Jaipongan_Bunga_Tanjung_02.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        </div>
+
+
+        <!-- <div class="swiper-container slick-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
                 <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
@@ -833,7 +865,7 @@
                 <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
                 <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
             </div>
-        </div>
+        </div> -->
 
     </section>
 
@@ -891,6 +923,7 @@
     <!-- custom js file link  -->
     <script src="js/script.js"></script>
     <!-- <script src="js/driver.js"></script> -->
+    <script src="js/slider.js"></script>
 
 </body>
 
