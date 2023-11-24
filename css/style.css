@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 :root {
-  --red: red;
+  --red: #ff0000;
 }
 
 * {
@@ -122,7 +122,7 @@ header .search-bar-container {
   left: 0;
   right: 0;
   padding: 1.5rem 2rem;
-  background: rgba(255, 0, 0, 0.705);
+  background: rgba(0, 0, 0, 0.938);
   border-top: .1rem solid rgba(255, 255, 255, .2);
   display: flex;
   align-items: center;
@@ -165,6 +165,10 @@ header .search-bar-container label:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.active {
+  /* background-color: red; */
 }
 
 .form-input {
