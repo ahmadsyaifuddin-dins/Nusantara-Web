@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 :root {
   --red: #ff0000;
 }
 
 * {
-  font-family: 'candara', sans-serif;
+  font-family: "candara", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,7 +13,7 @@
   outline: none;
   border: none;
   text-decoration: none;
-  transition: all .2s linear;
+  transition: all 0.2s linear;
 }
 
 *::selection {
@@ -35,15 +35,15 @@ section {
 
 .heading {
   text-align: center;
-  padding: 2.5rem 0
+  padding: 2.5rem 0;
 }
 
 .heading span {
   font-size: 3.5rem;
-  background: rgba(255, 165, 0, .2);
+  background: rgba(255, 165, 0, 0.2);
   color: var(--red);
-  border-radius: .5rem;
-  padding: .2rem 1rem;
+  border-radius: 0.5rem;
+  padding: 0.2rem 1rem;
 }
 
 .heading span.space {
@@ -55,8 +55,8 @@ section {
   margin-top: 1rem;
   background: var(--red);
   color: #fff;
-  padding: .8rem 3rem;
-  border: .2rem solid var(--red);
+  padding: 0.8rem 3rem;
+  border: 0.2rem solid var(--red);
   cursor: pointer;
   font-size: 1.7rem;
   border-radius: 20px;
@@ -64,7 +64,7 @@ section {
 }
 
 .btn:hover {
-  background: rgba(255, 165, 0, .2);
+  background: rgba(255, 165, 0, 0.2);
   color: var(--red);
 }
 
@@ -98,7 +98,7 @@ header .logo span {
 header .navbar a {
   color: #fff;
   font-size: 2rem;
-  margin: 0 .8rem;
+  margin: 0 0.8rem;
 }
 
 header .navbar a:hover {
@@ -123,7 +123,7 @@ header .search-bar-container {
   right: 0;
   padding: 1.5rem 2rem;
   background: rgba(0, 0, 0, 0.938);
-  border-top: .1rem solid rgba(255, 255, 255, .2);
+  border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
   display: flex;
   align-items: center;
   z-index: 1001;
@@ -140,7 +140,7 @@ header .search-bar-container #search-bar {
   text-transform: none;
   color: red;
   font-size: 1.7rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 header .search-bar-container label {
@@ -161,14 +161,10 @@ header .search-bar-container label:hover {
   z-index: 10000;
   min-height: 100vh;
   width: 100%;
-  background: rgba(0, 0, 0, .7);
+  background: rgba(0, 0, 0, 0.7);
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.active {
-  /* background-color: red; */
 }
 
 .form-input {
@@ -185,7 +181,7 @@ header .search-bar-container label:hover {
 .login-form-container form {
   margin: 2rem;
   padding: 1.5rem 2rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   background: #fff;
   width: 50rem;
 }
@@ -203,14 +199,13 @@ header .search-bar-container label:hover {
   padding: 1rem;
   font-size: 1.7rem;
   color: #747d8c;
-  margin: .6rem 0;
-  border: .1rem solid rgba(0, 0, 0, .3);
+  margin: 0.6rem 0;
+  border: 0.1rem solid rgba(0, 0, 0, 0.3);
   text-transform: none;
 }
 
 .login-form-container form .box:focus {
   border-color: var(--red);
-  ;
 }
 
 .login-form-container form #remember {
@@ -227,7 +222,7 @@ header .search-bar-container label:hover {
 }
 
 .login-form-container form p {
-  padding: .5rem 0;
+  padding: 0.5rem 0;
   font-size: 1.5rem;
   color: #666;
 }
@@ -252,10 +247,10 @@ header .search-bar-container label:hover {
 
 #menu-bar {
   color: #fff;
-  border: .1rem solid #fff;
-  border-radius: .5rem;
+  border: 0.1rem solid #fff;
+  border-radius: 0.5rem;
   font-size: 3rem;
-  padding: .5rem 1.2rem;
+  padding: 0.5rem 1.2rem;
   cursor: pointer;
   display: none;
 }
@@ -278,7 +273,7 @@ header .search-bar-container label:hover {
   font-size: 4.5rem;
   color: rgb(255, 0, 0);
   text-transform: uppercase;
-  text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .1);
+  text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
 .home .content p {
@@ -286,7 +281,7 @@ header .search-bar-container label:hover {
   color: #ffffff;
   /* background-color: rgba(0, 0, 0, 0.329); */
   font-weight: 500;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
 }
 
 /* .home .btn {
@@ -306,7 +301,7 @@ header .search-bar-container label:hover {
 .home .controls {
   padding: 1rem;
   border-radius: 5rem;
-  background: rgba(0, 0, 0, .7);
+  background: rgba(0, 0, 0, 0.7);
   position: relative;
   top: 10rem;
 }
@@ -318,7 +313,7 @@ header .search-bar-container label:hover {
   border-radius: 50%;
   background: #fff;
   cursor: pointer;
-  margin: 0 .5rem;
+  margin: 0 0.5rem;
 }
 
 .home .controls .vid-btn.active {
@@ -345,18 +340,18 @@ header .search-bar-container label:hover {
 .book .row form {
   flex: 1 1 40rem;
   padding: 2rem;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
-  border-radius: .5rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
 }
 
 .book .row form .inputBox {
-  padding: .5rem 0;
+  padding: 0.5rem 0;
 }
 
 .book .row form .inputBox input {
   width: 100%;
   padding: 1rem;
-  border: .1rem solid rgba(0, 0, 0, .1);
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
   font-size: 1.7rem;
   color: black;
   text-transform: none;
@@ -368,10 +363,7 @@ header .search-bar-container label:hover {
   color: red;
 }
 
-
 /* End Section Book */
-
-
 
 /* Section Packages/Kepulauan */
 .packages .box-container {
@@ -382,9 +374,9 @@ header .search-bar-container label:hover {
 
 .packages .box-container .box {
   flex: 1 1 30rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   overflow: hidden;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
 }
 
 .packages .box-container .box img {
@@ -431,7 +423,6 @@ header .search-bar-container label:hover {
 
 /* End Section Packages/Kepulauan */
 
-
 .services .box-container {
   display: flex;
   flex-wrap: wrap;
@@ -440,7 +431,7 @@ header .search-bar-container label:hover {
 
 .services .box-container .box {
   flex: 1 1 30rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   padding: 1rem;
   text-align: center;
 }
@@ -463,7 +454,7 @@ header .search-bar-container label:hover {
 }
 
 .services .box-container .box:hover {
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
 }
 
 .gallery .box-container {
@@ -474,9 +465,9 @@ header .search-bar-container label:hover {
 
 .gallery .box-container .box {
   overflow: hidden;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
   border: 1rem solid #fff;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   flex: 1 1 30rem;
   height: 25rem;
   position: relative;
@@ -497,14 +488,12 @@ header .search-bar-container label:hover {
   text-align: center;
   background: rgba(0, 0, 0, 0.527);
   padding: 2rem;
-  padding-top: .5rem;
+  padding-top: 0.5rem;
 }
 
 .gallery .box-container .box a {
   visibility: collapse;
 }
-
-
 
 .gallery .box-container .box:hover .content {
   top: 0;
@@ -518,7 +507,7 @@ header .search-bar-container label:hover {
 .gallery .box-container .box .content p {
   font-size: 1.5rem;
   color: #eee;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
 }
 
 .review .review-slider {
@@ -528,8 +517,8 @@ header .search-bar-container label:hover {
 .review .box {
   padding: 2rem;
   text-align: center;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
-  border-radius: .5rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
 }
 
 .review .box img {
@@ -576,8 +565,8 @@ header .search-bar-container label:hover {
 .contact .row form {
   flex: 1 1 50rem;
   padding: 2rem;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
-  border-radius: .5rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
 }
 
 .contact .row form .inputBox {
@@ -585,7 +574,6 @@ header .search-bar-container label:hover {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 
 /* InputBox Position Khusus Rating Stars  */
 .contact .row form .inputBox2 {
@@ -626,7 +614,7 @@ header .search-bar-container label:hover {
 .rate-area:not(:checked)>label {
   float: right;
   width: 1em;
-  padding: 0 .1em;
+  padding: 0 0.1em;
   overflow: hidden;
   white-space: nowrap;
   cursor: pointer;
@@ -637,7 +625,7 @@ header .search-bar-container label:hover {
 }
 
 .rate-area:not(:checked)>label:before {
-  content: '★ ';
+  content: "★ ";
 }
 
 .rate-area>input:checked~label {
@@ -650,7 +638,6 @@ header .search-bar-container label:hover {
 .rate-area:not(:checked)>label:hover,
 .rate-area:not(:checked)>label:hover~label {
   color: gold;
-
 }
 
 .rate-area>input:checked+label:hover,
@@ -660,7 +647,6 @@ header .search-bar-container label:hover {
 .rate-area>label:hover~input:checked~label {
   color: gold;
   text-shadow: 1px 1px goldenrod;
-
 }
 
 .rate-area>label:active {
@@ -670,7 +656,6 @@ header .search-bar-container label:hover {
 }
 
 /* End Rating Stars + End Also Contact Form*/
-
 
 .brand-container {
   text-align: center;
@@ -693,20 +678,20 @@ header .search-bar-container label:hover {
 
 .footer .box-container .box h3 {
   font-size: 2.5rem;
-  padding: .7rem 0;
+  padding: 0.7rem 0;
   color: black;
 }
 
 .footer .box-container .box p {
   font-size: 1.5rem;
-  padding: .7rem 0;
+  padding: 0.7rem 0;
   color: black;
 }
 
 .footer .box-container .box a {
   display: block;
   font-size: 1.5rem;
-  padding: .7rem 0;
+  padding: 0.7rem 0;
   margin-top: 5px;
   color: black;
 }
@@ -723,29 +708,22 @@ header .search-bar-container label:hover {
   font-size: 2rem;
   font-weight: normal;
   color: black;
-  border-top: .1rem solid rgba(255, 255, 255, .2);
+  border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
 }
 
 .footer .credit span a {
   color: var(--red);
 }
 
-
-
-
-
 /* media queries  */
 
-@media (max-width:1200px) {
-
+@media (max-width: 1200px) {
   html {
     font-size: 55%;
   }
-
 }
 
-@media (max-width:991px) {
-
+@media (max-width: 991px) {
   header {
     padding: 2rem;
   }
@@ -753,11 +731,9 @@ header .search-bar-container label:hover {
   section {
     padding: 2rem;
   }
-
 }
 
-@media (max-width:768px) {
-
+@media (max-width: 768px) {
   #menu-bar {
     display: initial;
   }
@@ -768,7 +744,7 @@ header .search-bar-container label:hover {
     right: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.308);
-    border-top: .1rem solid rgba(255, 255, 255, .2);
+    border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
     padding: 1rem 2rem;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
@@ -779,16 +755,14 @@ header .search-bar-container label:hover {
 
   header .navbar a {
     display: block;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     padding: 1.5rem;
     margin: 1.5rem 0;
     background: rgba(0, 0, 0, 0.308);
   }
-
 }
 
-@media (max-width:450px) {
-
+@media (max-width: 450px) {
   html {
     font-size: 50%;
   }
@@ -809,5 +783,4 @@ header .search-bar-container label:hover {
   .home .video-container video {
     object-fit: fill;
   }
-
 }
