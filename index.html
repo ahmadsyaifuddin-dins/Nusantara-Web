@@ -932,12 +932,17 @@
         </div>
 
         <!-- Footer Main -->
-        <h1 class="credit"> created by <span><a href="https://www.instagram.com/real.ahmadsyaifuddin/">Ahmad
-                    Syaifuddin</a></span> |
+        <h1 class="credit"> Created by <span><a href="https://www.instagram.com/real.ahmadsyaifuddin/">Ahmad
+                    Syaifuddin</a></span> <span id="year"> </span> |
             all
             rights reserved! </h1>
 
     </section>
+
+    <!-- Year Footer Dynamic -->
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
 
     <!-- DriverJs -->
     <script src="https://cdn.jsdelivr.net/npm/driver.js@1.0.1/dist/driver.js.iife.js"></script>
